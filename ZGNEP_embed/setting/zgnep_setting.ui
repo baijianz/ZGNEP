@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>zgnep_setting</class>
+ <widget class="QWidget" name="zgnep_setting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1442</width>
+    <height>654</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2" rowstretch="4,1">
+   <item row="1" column="0">
+    <widget class="QFrame" name="frame_2">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="btn_amendName">
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;  /* Remove any border */
+    padding: 0px;  /* No padding */
+}
+
+QPushButton::icon {
+    /* Set the size of the icon */
+    width: 100px;
+    height: 100px;
+}
+
+QPushButton::text {
+    /* Set the size of the text to fit the icon */
+    font-size: 14px;  /* Adjust the font size as needed */
+}</string>
+        </property>
+        <property name="text">
+         <string>修改昵称</string>
+        </property>
+        <property name="icon">
+         <iconset resource="settingSrc.qrc">
+          <normaloff>:/icon/修改.png</normaloff>:/icon/修改.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="btn_amendImage">
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;  /* Remove any border */
+    padding: 0px;  /* No padding */
+}
+
+QPushButton::icon {
+    /* Set the size of the icon */
+    width: 100px;
+    height: 100px;
+}
+
+QPushButton::text {
+    /* Set the size of the text to fit the icon */
+    font-size: 14px;  /* Adjust the font size as needed */
+}</string>
+        </property>
+        <property name="text">
+         <string>修改头像</string>
+        </property>
+        <property name="icon">
+         <iconset resource="settingSrc.qrc">
+          <normaloff>:/icon/修改.png</normaloff>:/icon/修改.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="pushButton">
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;  /* Remove any border */
+    padding: 0px;  /* No padding */
+}
+
+QPushButton::icon {
+    /* Set the size of the icon */
+    width: 100px;
+    height: 100px;
+}
+
+QPushButton::text {
+    /* Set the size of the text to fit the icon */
+    font-size: 14px;  /* Adjust the font size as needed */
+}</string>
+        </property>
+        <property name="text">
+         <string>测试按钮</string>
+        </property>
+        <property name="icon">
+         <iconset resource="settingSrc.qrc">
+          <normaloff>:/icon/修改.png</normaloff>:/icon/修改.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;  /* Remove any border */
+    padding: 0px;  /* No padding */
+}
+
+QPushButton::icon {
+    /* Set the size of the icon */
+    width: 100px;
+    height: 100px;
+}
+
+QPushButton::text {
+    /* Set the size of the text to fit the icon */
+    font-size: 14px;  /* Adjust the font size as needed */
+}</string>
+        </property>
+        <property name="text">
+         <string>修改时间</string>
+        </property>
+        <property name="icon">
+         <iconset resource="settingSrc.qrc">
+          <normaloff>:/icon/修改.png</normaloff>:/icon/修改.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="btn_return">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>返回</string>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;  /* Remove any border */
+    padding: 0px;  /* No padding */
+}
+
+QPushButton::icon {
+    /* Set the size of the icon */
+    width: 100px;
+    height: 100px;
+}
+
+QPushButton::text {
+    /* Set the size of the text to fit the icon */
+    font-size: 14px;  /* Adjust the font size as needed */
+}</string>
+        </property>
+        <property name="text">
+         <string>返回主页</string>
+        </property>
+        <property name="icon">
+         <iconset resource="settingSrc.qrc">
+          <normaloff>:/icon/返回.png</normaloff>:/icon/返回.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="btn_amendPass">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>修改密码</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#btn_amendPass {
+    border: none;  /* Remove any border */
+    padding: 0px;  /* No padding */
+}
+
+#btn_amendPass::icon {
+    /* Set the size of the icon */
+    width: 60px;
+    height: 60px;
+}
+
+#btn_amendPass::indicator {
+    /* Set the size of the indicator (e.g. arrow) if applicable */
+    width: 60px;
+    height: 60px;
+}
+
+#btn_amendPass::text {
+    /* Set the size of the text to fit the icon */
+    font-size: 14px;  /* Adjust the font size as needed */
+}</string>
+        </property>
+        <property name="text">
+         <string>修改密码</string>
+        </property>
+        <property name="icon">
+         <iconset resource="settingSrc.qrc">
+          <normaloff>:/icon/修改密码.png</normaloff>:/icon/修改密码.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="btn_exitLogin">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>退出登陆</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;  /* Remove any border */
+    padding: 0px;  /* No padding */
+}
+
+QPushButton::icon {
+    /* Set the size of the icon */
+    width: 100px;
+    height: 100px;
+}
+
+QPushButton::text {
+    /* Set the size of the text to fit the icon */
+    font-size: 14px;  /* Adjust the font size as needed */
+}</string>
+        </property>
+        <property name="text">
+         <string>退出登录</string>
+        </property>
+        <property name="icon">
+         <iconset resource="settingSrc.qrc">
+          <normaloff>:/icon/退出登录.png</normaloff>:/icon/退出登录.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="btn_shut">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>关机</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border: none;  /* Remove any border */
+    padding: 0px;  /* No padding */
+}
+
+QPushButton::icon {
+    /* Set the size of the icon */
+    width: 100px;
+    height: 100px;
+}
+
+QPushButton::text {
+    /* Set the size of the text to fit the icon */
+    font-size: 14px;  /* Adjust the font size as needed */
+}</string>
+        </property>
+        <property name="text">
+         <string>系统关机</string>
+        </property>
+        <property name="icon">
+         <iconset resource="settingSrc.qrc">
+          <normaloff>:/icon/关机.png</normaloff>:/icon/关机.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="2" colspan="2">
+       <widget class="QFrame" name="frame_5">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="lineEditID">
+           <property name="font">
+            <font>
+             <pointsize>24</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="font">
+            <font>
+             <pointsize>24</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>ID   </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="2" column="2" colspan="2">
+       <widget class="QFrame" name="frame_4">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="font">
+            <font>
+             <pointsize>24</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>身份</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEditRole">
+           <property name="font">
+            <font>
+             <pointsize>24</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="2" colspan="2">
+       <widget class="QFrame" name="frame_3">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <pointsize>24</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>昵称</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEditName">
+           <property name="font">
+            <font>
+             <pointsize>24</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="0" rowspan="3" colspan="2">
+       <widget class="QLabel" name="label_profile">
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid black;</string>
+        </property>
+        <property name="text">
+         <string>头像</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="settingSrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

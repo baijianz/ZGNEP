@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/修改密码.png</file>
+        <file>icon/修改.png</file>
+        <file>icon/退出登录.png</file>
+        <file>icon/关机.png</file>
+        <file>icon/返回.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/start">
+        <file>src/准备界面.png</file>
+    </qresource>
+    <qresource prefix="/main">
+        <file>src/icon/Word.png</file>
+        <file>src/icon/ppt.png</file>
+        <file>src/icon/pdf.png</file>
+        <file>src/icon/文件系统.png</file>
+        <file>src/icon/文件传输助手.png</file>
+        <file>src/icon/图库.png</file>
+        <file>src/icon/设置.png</file>
+        <file>src/icon/记事本.png</file>
+        <file>src/icon/计算器.png</file>
+        <file>src/icon/白板 .png</file>
+        <file>src/icon/音乐播放器.png</file>
+        <file>src/icon/播放器.png</file>
+        <file>src/icon/文字底图.jpg</file>
+        <file>src/icon/日历.png</file>
+        <file>src/icon/课程表.png</file>
+    </qresource>
+</RCC>

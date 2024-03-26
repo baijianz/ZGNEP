@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>src/cancel_hover.png</file>
+        <file>src/cancel_normal.png</file>
+        <file>src/close_hover.png</file>
+        <file>src/close_normal.png</file>
+        <file>src/confirm_hover.png</file>
+        <file>src/confirm_normal.png</file>
+        <file>src/error_icon.png</file>
+        <file>src/min_normal.png</file>
+        <file>src/question_icon.png</file>
+        <file>src/success_icon.png</file>
+        <file>src/tips_icon.png</file>
+        <file>src/title_bg.png</file>
+        <file>src/warning_icon.png</file>
+    </qresource>
+</RCC>

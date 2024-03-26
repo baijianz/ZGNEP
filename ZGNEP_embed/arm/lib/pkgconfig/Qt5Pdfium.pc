@@ -1,0 +1,13 @@
+prefix=/opt/st/stm32mp1/3.1-snapshot/sysroots/cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include
+
+
+Name: Qt5 Pdfium
+Description: Qt Pdfium module
+Version: 5.5.0
+Libs: -L${libdir} -lQt5Pdfium 
+Cflags: -DQT_PDFIUM_LIB -I${includedir}/QtPdfium -I${includedir}
+Requires: Qt5Core Qt5Gui
+

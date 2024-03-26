@@ -1,0 +1,6 @@
+QMAKE_PRL_BUILD_DIR = /home/baijianz/桌面/qt-pdfium-master/qtpdfium-master/src/pdfium
+QMAKE_PRO_INPUT = pdfium.pro
+QMAKE_PRL_TARGET = libQt5Pdfium.so.5.5.0
+QMAKE_PRL_CONFIG = silent lex yacc debug depend_includepath testcase_targets import_plugins import_qpa_plugin qt_build_extra file_copies qmake_use qt warn_on link_prl incremental cross_compile shared linux unix posix gcc cross_compile compile_examples enable_new_dtags largefile neon prefix_build force_independent force_bootstrap utf8_source create_prl link_prl prepare_docs qt_docs_targets no_private_qt_headers_warning QTDIR_build qt_example_installs exceptions_off testcase_exceptions explicitlib qt_example_installs warning_clean debug qml_debug warn_on strict_flags c++11 relative_qt_rpath qmake_cache target_qt c++11 strict_c++ c++14 c++1z c99 c11 hide_symbols qt_install_headers need_fwd_pri qt_install_module create_cmake compiler_supports_fpmath create_pc create_libtool have_target dll debug_info thread opengl moc resources
+QMAKE_PRL_VERSION = 5.5.0
+QMAKE_PRL_LIBS = /opt/st/stm32mp1/3.1-snapshot/sysroots/cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi/usr/lib/libQt5Gui.so /opt/st/stm32mp1/3.1-snapshot/sysroots/cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi/usr/lib/libQt5Core.so -lpthread

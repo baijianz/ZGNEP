@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>src/advance.png</file>
+        <file>src/Blow-up.png</file>
+        <file>src/brush.png</file>
+        <file>src/Cancel.png</file>
+        <file>src/close-round.png</file>
+        <file>src/close-round2.png</file>
+        <file>src/Color.PNG</file>
+        <file>src/Create-a-new-color_layer.png</file>
+        <file>src/delete.png</file>
+        <file>src/delete2.png</file>
+        <file>src/Figure-circle.png</file>
+        <file>src/Figure-Line.png</file>
+        <file>src/Figure-Rectangle.png</file>
+        <file>src/Hidden.png</file>
+        <file>src/minification.png</file>
+        <file>src/more.png</file>
+        <file>src/Move.png</file>
+        <file>src/OK.png</file>
+        <file>src/Paint Bucket.png</file>
+        <file>src/plus.png</file>
+        <file>src/QRcode.png</file>
+        <file>src/QRcode2.png</file>
+        <file>src/recoil.png</file>
+        <file>src/retraction.png</file>
+        <file>src/reveal.png</file>
+        <file>src/revocation-three.png</file>
+        <file>src/rubber.png</file>
+        <file>src/save.png</file>
+        <file>src/search.png</file>
+        <file>src/setting-two.png</file>
+        <file>src/setting-two2.png</file>
+        <file>src/straw.png</file>
+        <file>src/student.png</file>
+        <file>src/subtract.png</file>
+        <file>src/Text.png</file>
+        <file>src/user-circle.png</file>
+        <file>src/user-circle 1.png</file>
+        <file>src/eraseCircle.jpg</file>
+        <file>src/whiteBoardErase.png</file>
+    </qresource>
+</RCC>

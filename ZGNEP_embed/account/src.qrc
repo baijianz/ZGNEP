@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>src/用户.png</file>
+        <file>src/管理员.png</file>
+        <file>src/封面.jpg</file>
+        <file>src/登录.png</file>
+        <file>src/用户登录.jpg</file>
+        <file>src/女孩.jpg</file>
+        <file>src/管理员登录.jpg</file>
+        <file>src/备用.png</file>
+        <file>src/登录背景.png</file>
+        <file>src/返回.png</file>
+    </qresource>
+</RCC>

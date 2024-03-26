@@ -1,0 +1,13 @@
+prefix=/usr/lib/Qt/5.12.9/gcc_64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Pdfium
+Description: Qt Pdfium module
+Version: 5.5.0
+Libs: -L${libdir} -lQt5Pdfium 
+Cflags: -DQT_PDFIUM_LIB -I${includedir}/QtPdfium -I${includedir}
+Requires: Qt5Core Qt5Gui
+
